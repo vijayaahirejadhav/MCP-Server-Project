@@ -1,0 +1,18 @@
+# LinkedIn API Credentials
+LINKEDIN_EMAIL=your_linkedin_email@example.com
+LINKEDIN_PASSWORD=your_linkedin_password
+LINKEDIN_CLIENT_ID=your_client_id_from_linkedin_developer_portal
+LINKEDIN_CLIENT_SECRET=your_client_secret_from_linkedin_developer_portal
+LINKEDIN_REDIRECT_URI=http://localhost:8000/callback
+
+# MCP Server Configuration
+MCP_SERVER_HOST=localhost
+MCP_SERVER_PORT=8000
+MCP_SERVER_SECRET=your_secret_key_here
+
+# Database Configuration
+DATABASE_URL=sqlite:///linkedin_automation.db
+
+# Post Scheduling
+DEFAULT_POST_TIME=09:00
+TIMEZONE=Asia/Kolkata
